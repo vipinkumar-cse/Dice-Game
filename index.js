@@ -25,7 +25,7 @@ function clicked() {
       document.querySelector("#p1").setAttribute("src","images/dice6.png");
     }
 
-// For player 2
+//  For player 2 
     dicenumber2 = Math.floor(Math.random()*6)+1;
     if(dicenumber2===1){
       document.querySelector("#p2").setAttribute("src","images/dice1.png");
